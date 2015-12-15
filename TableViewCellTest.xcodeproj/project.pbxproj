@@ -14,6 +14,8 @@
 		AD8DF5D01C1ABE9700BC4349 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8DF5CF1C1ABE9700BC4349 /* Images.xcassets */; };
 		AD8DF5D31C1ABE9700BC4349 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8DF5D11C1ABE9700BC4349 /* LaunchScreen.xib */; };
 		AD8DF5DF1C1ABE9700BC4349 /* TableViewCellTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8DF5DE1C1ABE9700BC4349 /* TableViewCellTestTests.m */; };
+		AD8DF5EA1C1ABEAC00BC4349 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8DF5E91C1ABEAC00BC4349 /* TableViewCell.m */; };
+		AD8DF5EC1C1ABEC600BC4349 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8DF5EB1C1ABEC600BC4349 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		AD8DF5D81C1ABE9700BC4349 /* TableViewCellTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8DF5DD1C1ABE9700BC4349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD8DF5DE1C1ABE9700BC4349 /* TableViewCellTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellTestTests.m; sourceTree = "<group>"; };
+		AD8DF5E81C1ABEAC00BC4349 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		AD8DF5E91C1ABEAC00BC4349 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		AD8DF5EB1C1ABEC600BC4349 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				AD8DF5C71C1ABE9700BC4349 /* AppDelegate.m */,
 				AD8DF5C91C1ABE9700BC4349 /* ViewController.h */,
 				AD8DF5CA1C1ABE9700BC4349 /* ViewController.m */,
+				AD8DF5E81C1ABEAC00BC4349 /* TableViewCell.h */,
+				AD8DF5E91C1ABEAC00BC4349 /* TableViewCell.m */,
+				AD8DF5EB1C1ABEC600BC4349 /* TableViewCell.xib */,
 				AD8DF5CC1C1ABE9700BC4349 /* Main.storyboard */,
 				AD8DF5CF1C1ABE9700BC4349 /* Images.xcassets */,
 				AD8DF5D11C1ABE9700BC4349 /* LaunchScreen.xib */,
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8DF5CE1C1ABE9700BC4349 /* Main.storyboard in Resources */,
+				AD8DF5EC1C1ABEC600BC4349 /* TableViewCell.xib in Resources */,
 				AD8DF5D31C1ABE9700BC4349 /* LaunchScreen.xib in Resources */,
 				AD8DF5D01C1ABE9700BC4349 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8DF5CB1C1ABE9700BC4349 /* ViewController.m in Sources */,
+				AD8DF5EA1C1ABEAC00BC4349 /* TableViewCell.m in Sources */,
 				AD8DF5C81C1ABE9700BC4349 /* AppDelegate.m in Sources */,
 				AD8DF5C51C1ABE9700BC4349 /* main.m in Sources */,
 			);

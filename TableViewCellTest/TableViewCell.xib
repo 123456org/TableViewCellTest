@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="eyk-r7-4Gi" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rb1-uK-DGc">
+                    <rect key="frame" x="519" y="34" width="51" height="31"/>
+                    <color key="onTintColor" red="1" green="0.18080350279999999" blue="0.135586648" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="thumbTintColor" red="0.70129281395566778" green="1" blue="0.53866950793443813" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="btnValueChange:" destination="eyk-r7-4Gi" eventType="valueChanged" id="fO8-Ue-GDh"/>
+                    </connections>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12312312312312312321312" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEB-ek-0d6">
+                    <rect key="frame" x="8" y="39" width="479" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Rb1-uK-DGc" secondAttribute="trailing" constant="32" id="Bb6-US-ZGu"/>
+                <constraint firstItem="Rb1-uK-DGc" firstAttribute="leading" secondItem="EEB-ek-0d6" secondAttribute="trailing" constant="32" id="EVh-Jz-9uF"/>
+                <constraint firstItem="EEB-ek-0d6" firstAttribute="leading" secondItem="eyk-r7-4Gi" secondAttribute="leading" constant="8" id="N5q-Bx-VUL"/>
+                <constraint firstItem="Rb1-uK-DGc" firstAttribute="top" secondItem="eyk-r7-4Gi" secondAttribute="top" constant="34" id="SUC-Ue-b0G"/>
+                <constraint firstAttribute="bottom" secondItem="EEB-ek-0d6" secondAttribute="bottom" constant="40" id="cqH-T4-gbI"/>
+                <constraint firstAttribute="trailing" secondItem="Rb1-uK-DGc" secondAttribute="trailing" constant="32" id="hPh-ee-d0I"/>
+                <constraint firstItem="EEB-ek-0d6" firstAttribute="top" secondItem="eyk-r7-4Gi" secondAttribute="top" constant="39" id="n0u-Sz-JHB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn" destination="Rb1-uK-DGc" id="tYi-01-d3W"/>
+            </connections>
+            <point key="canvasLocation" x="346" y="192"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
